@@ -2,10 +2,10 @@
 
 namespace Leandrocfe\FilamentPtbrFormFields;
 
-use Filament\Forms\Components\Actions\Action;
-use Filament\Forms\Components\Component;
+use Filament\Actions\Action;
 use Filament\Forms\Components\TextInput;
-use Filament\Forms\Set;
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Components\Utilities\Set;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Validation\ValidationException;
